@@ -1,25 +1,114 @@
-title { 
-    color: blue;
-    font-size: 24px;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif
+/* ignore keyframes */
+
+
+
+/* @keyframes ultraStrobe {
+  0%, 50% { background-color: #ffffff; }
+  25%, 75% { background-color: #000000; }
 }
 
+@keyframes violentShake {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-30px); }
+  40% { transform: translateX(25px); }
+  60% { transform: translateX(-15px); }
+  80% { transform: translateX(10px); }
+  100% { transform: translateX(0); }
+} */
+
+
 body {
-    background-color: aqua;
+    /* animation: 
+        ultraStrobe 0.1s infinite,
+        violentShake 0.1s infinite; */
+    background-color: rgb(0, 85, 134);
+    color: rgb(1, 1, 36);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+
+}
+
+h1 {
+    background-color: #B9CDDA;
+    border: #D7DAE5, solid, 3px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40px;
+    width: 50%;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    width: auto;
 }
 
 p {
-    color:black;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    line-height: 1.67em;
+}
+
+#p1 {
+    border:black 2px dotted;
+    background-color:rgba(255, 255, 255, 0.185);
+    padding: 2px 2px 10px 10px;
 }
 
 img {
-    width: 300px;
+    float: left;
+    margin-right: 5px;
+    width: 100px;
+    border: white solid 3px;
+    border-radius: 3px;
 }
 
-@media screen and (max-width: 1170) and (max-height: 2532) {
+#pic2 {
+    height: 140px;
+    float: right;
+}
+
+a:link {
+    color: #0088f7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color:#6f00ff;
+}
+
+a:hover {
+    color:aqua
+}
+
+a:active {
+    color:pink;
+}
+
+.highlight {
+    background-color: yellow;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.highlight:hover {
+    background-color: lightyellow;
+}
+
+#container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgb(128, 198, 238);
+    padding: 40px;
+    border-left: black solid 4px;
+    border-right: black solid 4px;
 }
 
 
 
+/* @media screen and (max-width: 1170) and (max-height: 2532) {
+} */
