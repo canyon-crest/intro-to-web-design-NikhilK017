@@ -94,17 +94,17 @@ a:active {
     color:pink;
 }
 
-.highlight {
+.highlight{
     background-color: yellow;
     padding: 3px;
     border-radius: 5px;
 }
 
-.highlight:hover {
+.highlight:hover{
     background-color: lightyellow;
 }
 
-#container {
+#container{
     width: 800px;
     margin: 0 auto;
     background-color: rgb(128, 198, 238);
@@ -113,7 +113,7 @@ a:active {
     border-right: black solid 4px;
 }
 
-#sidebar {
+#sidebar{
     background-color: #001a2b;
     color:white;
     width:225px;
