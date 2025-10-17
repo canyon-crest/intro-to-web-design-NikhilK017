@@ -104,6 +104,10 @@ a:active {
     background-color: lightyellow;
 }
 
+.highlight:active{
+    background-color: rgb(255, 186, 59);
+}
+
 #container{
     width: 800px;
     margin: 0 auto;
