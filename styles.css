@@ -1,26 +1,4 @@
-/* 
-
-
-
-@keyframes ultraStrobe {
-  0%, 50% { background-color: #ffffff; }
-  25%, 75% { background-color: #000000; }
-}
-
-@keyframes violentShake {
-  0% { transform: translateX(0); }
-  20% { transform: translateX(-30px); }
-  40% { transform: translateX(25px); }
-  60% { transform: translateX(-15px); }
-  80% { transform: translateX(10px); }
-  100% { transform: translateX(0); }
-}
- */
-
 body {
-    /* animation: 
-        ultraStrobe 0.15s infinite,
-        violentShake 0.15s infinite; */
     background-color: rgb(0, 85, 134);
     color: rgb(1, 1, 36);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -32,7 +10,7 @@ h1 {
     background-color: #B9CDDA;
     border: 3px solid #D7DAE5;
     border-radius: 10px;
-    text-align: left;
+    text-align: center;
     padding: 20px;
     margin-bottom: 40px;
     width: 50%;
@@ -138,6 +116,12 @@ a:active {
     float: none;
 }
 
+#youtubevideo {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
 @media (max-width: 1200px) {
     #container, body {
         background-color: pink;
@@ -150,14 +134,14 @@ a:active {
         background-color: rgb(132, 0, 255);
         width:100%;
     }
-    #container, p, #p1, img {
+    #container, p, #p1, img, #youtubevideo {
         margin: 0;
         padding: 0;
         border: none;
     }
-    body {
-        padding:20px;
-    }
+    /* body {
+        margin:20px;
+    } */
 }
 
 @media (max-width: 768px) {
