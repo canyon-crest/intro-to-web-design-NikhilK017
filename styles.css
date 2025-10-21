@@ -22,9 +22,9 @@ h1 {
     border: 3px solid #D7DAE5;
     border-radius: 10px;
     text-align: center;
-    display: table; /* shrink-wrap to content and allow margin:auto centering */
+    display: table;
     padding: 20px;
-    margin: 0 auto 40px; /* center horizontally */
+    margin: 0 auto 40px; 
 }
 
 #junior{
@@ -57,7 +57,7 @@ img {
     width: 100px;
     border: white solid 3px;
     border-radius: 3px;
-    margin-bottom:10px;
+    margin-bottom:5px;
 }
 
 #pic2{
@@ -200,11 +200,12 @@ hr {
         background-color: #57aeff !important;
         width:100%;
     }
-    #container, p, #p1, img {
+    #container, p, #p1 {
         margin: 0, 10px;
         padding: 0;
         border: none;
     }
+
     body {
         padding:20px;
     }
@@ -241,5 +242,10 @@ hr {
     img {
         float: none !important;
         border: none;
+    }
+
+    br {
+        display:none;
+
     }
 }
