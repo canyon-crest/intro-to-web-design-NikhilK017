@@ -21,11 +21,10 @@ h1 {
     background-color: #B9CDDA;
     border: 3px solid #D7DAE5;
     border-radius: 10px;
-    text-align: left;
+    text-align: center;
+    display: table; /* shrink-wrap to content and allow margin:auto centering */
     padding: 20px;
-    margin-bottom: 40px;
-    width: 50%;
-    margin: auto;
+    margin: 0 auto 40px; /* center horizontally */
 }
 
 #junior{
@@ -66,14 +65,10 @@ img {
     float: right;
 }
 
-a:link {
-    color: #0088f7;
+a:link, a:visited {
+    color: #270000; /* dark blue while idle */
     text-decoration: none;
     font-weight: bold;
-}
-
-a:visited {
-    color:#6f00ff;
 }
 
 a:hover {
@@ -156,7 +151,7 @@ hr {
 @media (max-width: 1200px) {
 
     body {
-        background-color: pink !important;
+        background-color: #94cefd !important;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -171,7 +166,7 @@ hr {
         border-left: none;
         border-right: none;
         box-sizing: border-box;
-        background-color: pink;
+        background-color: #94cefd !important;
     }
 
 
@@ -202,7 +197,7 @@ hr {
 
 @media (max-width: 992px) {
     #container, body {
-        background-color: rgb(132, 0, 255) !important;
+        background-color: #57aeff !important;
         width:100%;
     }
     #container, p, #p1, img {
@@ -230,7 +225,7 @@ hr {
 @media (max-width: 768px) {
 
     #container, body {
-        background-color: lightgreen !important;
+        background-color: #3E7FC2 !important;
     }
 
     #sidebar{
